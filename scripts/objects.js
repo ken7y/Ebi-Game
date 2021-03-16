@@ -8,7 +8,7 @@ Objects.prototype.arrow = function(x,y,arrow_image) {
     this.width = 42
     this.height = 68;
     this.arrow_image = arrow_image;
-    this.arrow_image.src = "images/arrow.svg";
+    this.arrow_image.src = "images/bong1.png";
     return this;
 };
 
@@ -18,7 +18,7 @@ Objects.prototype.ebi = function(x,y,ebi_image) {
     this.width = 211;
     this.height = 338;
     this.ebi_image = ebi_image;
-    this.ebi_image.src = "images/ebi.svg";
+    this.ebi_image.src = "images/ebi.png";
     return this;
 };
 
@@ -28,7 +28,7 @@ Objects.prototype.bone = function(x,y,bone_image) {
     this.width = 22;
     this.height = 55;
     this.bone_image = bone_image;
-    this.bone_image.src = "images/bone.svg";
+    this.bone_image.src = "images/money.png";
     return this;
 };
 
@@ -40,7 +40,7 @@ Objects.prototype.balloon = function(x,y,line,column,balloon_image) {
     this.width = 43;
     this.height = 56;
     this.balloon_image = balloon_image;
-    this.balloon_image.src = "images/balloon.svg";
+    this.balloon_image.src = "images/weed.png";
     return this;
 };
 
@@ -50,7 +50,7 @@ Objects.prototype.pumpkin = function(x,y,pumpkin_image) {
     this.width = 23;
     this.height = 47;
     this.pumpkin_image = pumpkin_image;
-    this.pumpkin_image.src = "images/pumpkin.svg";
+    this.pumpkin_image.src = "images/monkey.png";
     return this;
 };
 
